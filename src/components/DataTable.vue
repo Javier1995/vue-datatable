@@ -189,7 +189,7 @@ export default {
                 }
             })
             .catch(errors => {
-                alert(errors);
+                console.log(errors);
             });
         },
         sortBy(key) {
